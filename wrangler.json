@@ -1,0 +1,30 @@
+{
+  "name": "late-rice-fbd9",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "falling-leaf-e332-d1",
+      "database_id": "7bae347f-a190-49df-9353-5fffed873db5"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "late-rice-fbd9-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
